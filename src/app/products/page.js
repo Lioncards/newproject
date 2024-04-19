@@ -1,3 +1,4 @@
+
 'use client'
 
 import {useState} from 'react'
@@ -11,7 +12,10 @@ const page=()=>{
 
   return(
     <div>
-      Home
+      <div>
+        This is product page
+      </div>
+        
     </div>
   )
 }

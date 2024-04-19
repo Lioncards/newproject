@@ -1,0 +1,147 @@
+
+.myNavBar{
+    padding: 20px 10%;
+}
+.topNav{
+    display: flex;
+}
+
+.topNav ul{
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.topNav ul li{
+    list-style: none;
+    padding-right: 20px;
+    border-right: solid red 1px ;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+}
+
+
+.bottomNav{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    padding-right: 0;
+    background-color: rgb(220, 220, 220);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.bottomNavRight{
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.bottomNav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.bottomNav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.bottomNavIcons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.bottomNavContact{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu{
+    background-color: orange;
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 0  10px 10px 0;
+    cursor: pointer;
+}
+
+
+
+/* =========== Side Bar ============== */
+
+.sideBar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 400px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100vh;
+}
+
+
+.closeDiv{
+    display: flex;
+    align-items: center;
+}
+
+.closeDiv p{
+    margin-left: auto;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+
+.aboutDiv .myP{
+    padding-top: 20px;
+    font-size: 13px;
+    color: black;
+}
+
+.aboutDiv button{
+    margin: 20px 0;
+    background-color: rgb(65, 157, 65);
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+.contactDiv{
+    padding-top: 30px;
+}
+
+.contactP{
+    color: rgb(65, 157, 65);
+    font-size: 13px;
+}
+
+.iconDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+
+.iconDiv p{
+    color: orange;
+    cursor: pointer;
+}
