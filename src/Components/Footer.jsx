@@ -73,14 +73,14 @@ const Footer=()=>{
                 <p className="footerLogo1"><FaRegCopyright /> All rights reserved Made by <span>ThemeTags</span></p>
 
                 <div className="footerLogo">
-                    <Image src={logo}/>
+                    <Image src={logo} alt=''/>
                 </div>
                 
                 <div className="footerLogo3">
-                    <Image src={paymentimg1}/>
-                    <Image src={paymentimg2}/>
-                    <Image src={paymentimg3}/>
-                    <Image src={paymentimg4}/>
+                    <Image src={paymentimg1} alt=''/>
+                    <Image src={paymentimg2} alt=''/>
+                    <Image src={paymentimg3} alt=''/>
+                    <Image src={paymentimg4} alt=''/>
                 </div>
             </div>
         </div>
