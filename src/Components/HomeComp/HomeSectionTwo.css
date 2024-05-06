@@ -1,0 +1,261 @@
+
+
+.sectionTwoOne{
+    display: flex;
+    padding: 20px 10%;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.sectionTwoOne p{
+    margin-left: auto;
+}
+
+.sectionTwoOne h2{
+    font-size: 40px;
+}
+
+.sectionTwoTwo{
+    display: flex;
+    align-items: center;
+    padding: 50px 10%;
+    padding-bottom: 15px;
+}
+
+.chairButton{
+    display: flex;
+    gap: 35px;
+    font-weight: 700;
+}
+
+.chairButton p{
+    border-bottom: 3px solid orange;
+    padding-bottom: 15px;
+}
+
+.chairButton p:hover{
+    color: rgb(82, 189, 82);
+}
+
+.furnitureBtn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    gap: 3px;
+    font-weight: 700;
+}
+
+.furnitureBtn2{
+    color: orange;
+}
+
+.furnitureBtn p:hover{
+    color: orange;
+}
+
+.furnLine{
+    border-top: orange 1px solid;
+    margin: 0px 10%;
+    position: relative;
+    top: -15px;
+}
+
+.furnitureCard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px 10%;
+    padding-top: 30px;
+}
+
+.furnCardDiv{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.furnCardDiv1 p{
+    color: orange;
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.furnCardDiv1 h3{
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+
+.furnCardDivIcon{
+    color: orange;
+    font-size: 20px;
+}
+
+.furnCardDiv2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.furnCardDiv2 p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.furnCardDiv2 button{
+    padding: 10px;
+    margin-left: auto;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.furnCardDiv:hover .furnCardDiv2 button{
+    background-color: orange;
+    color: white;
+    box-shadow: none;
+    transition: ease-in all 0.2s;
+}
+
+.furnCardDiv:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: ease-in all 0.2s;
+}
+
+.furnCardDivImage{
+    width: 100%;
+}
+
+.furnIcons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    top: 20px;
+    left: 230px;
+}
+
+.furnIcons p{
+    display: none;
+}
+
+.furnIcons p:hover{
+    background-color: rgb(90, 208, 90);
+    color: white;
+    font-weight: bolder;
+}
+
+.furnCardDiv:hover .furnIcons p{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 17px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.megamega{
+    display: flex;
+    padding: 20px 10%;
+    align-items: start;
+    gap: 20px;
+}
+
+.megamega10{
+    position: relative;
+}
+
+.megamega20{
+    margin-left: auto;
+    position: relative;
+}
+
+.mega10{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    gap: 10px;
+}
+
+.mega20{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    gap: 10px;
+}
+
+.mega10img{
+    width: 100%;
+}
+
+.mega10 span{
+    color: orange;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.pppp{
+    font-size: 18px;
+    padding-bottom: 15px;
+    line-height: 30px;
+}
+
+.ppp1{
+    font-size: 25px;
+}
+
+.mega10 h2{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.mega20 h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.mega14drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 30px;
+    font-weight: 600;
+    background-color: rgb(92, 163, 92);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    gap: 5px;
+}
+
+.mega12drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 17px 30px;
+    font-weight: 600;
+    background-color: rgb(255, 168, 6);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    gap: 5px;
+}
+

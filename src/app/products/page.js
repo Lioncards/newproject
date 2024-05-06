@@ -5,6 +5,7 @@ import {useState} from 'react'
 import React from 'react'
 // import { furnitureData } from './module'
 // import { FaStar } from "react-icons/fa";
+import ProductSection1 from '@/Components/ProductsComp/ProductSection1'
 
 
 const page=()=>{
@@ -13,7 +14,7 @@ const page=()=>{
   return(
     <div>
       <div>
-        This is product page
+        <ProductSection1/>
       </div>
         
     </div>

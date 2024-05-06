@@ -2,17 +2,23 @@
 
 import {useState} from 'react'
 import React from 'react'
-// import { furnitureData } from './module'
-// import { FaStar } from "react-icons/fa";
+import HomeSectionOne from '@/Components/HomeComp/HomeSectionOne'
+import HomeSectionTwo from '@/Components/HomeComp/HomeSectionTwo'
+import HomeSectionThree from '@/Components/HomeComp/HomeSectionThree'
+import HomeSectionFour from '@/Components/HomeComp/HomeSectionFour'
 
 
 const page=()=>{
 
 
   return(
-    <div>
-      Home
-    </div>
+    <section>
+      <HomeSectionOne/>
+      <HomeSectionTwo/>
+      <HomeSectionThree/>
+      <HomeSectionFour/>
+
+    </section>
   )
 }
 

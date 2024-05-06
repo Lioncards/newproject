@@ -1,0 +1,47 @@
+
+.footerDiv{
+    display: flex;
+    padding: 20px 10%;
+    gap: 150px;
+}
+
+.footerDiv20 ul{
+    list-style: none;
+    display: grid;
+    gap: 15px;
+}
+
+.footerDiv20 p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.footerDiv40{
+    padding: 50px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.footerLogo{
+    width: 100%;
+    text-align: center;
+}
+
+.footerLogo1{
+    margin-right: auto;
+}
+
+.footerLogo1 span{
+    color: orange;
+}
+
+.footerLogo3{
+    margin-left: auto;
+}
+
+.fDDD{
+    background-color: rgb(244, 230, 204);
+    padding-top: 50px;
+}
