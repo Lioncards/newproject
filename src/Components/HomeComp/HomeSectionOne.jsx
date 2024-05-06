@@ -188,7 +188,7 @@ const HomeSectionOne = () => {
             <div className='banerDivOneText'>
               <h4>UP TO 20% OFF</h4>
               <h2>Modern & Minimal</h2>
-              <p>Don't miss avail the saving opportunity</p>
+              <p>Dont miss avail the saving opportunity</p>
               <button>Shop Now </button>
             </div>
           </div>
@@ -199,7 +199,7 @@ const HomeSectionOne = () => {
             <div className='banerDivTwoText'>
               <h4>UP TO 20% OFF</h4>
               <h2>Modern & Minimal</h2>
-              <p>Don't miss avail the saving opportunity</p>
+              <p>Dont miss avail the saving opportunity</p>
               <button>Shop Now </button>
             </div>
           </div>
@@ -210,7 +210,7 @@ const HomeSectionOne = () => {
           <div className='bdDivText'>
               <h4>UP TO 20% OFF</h4>
               <h2>Modern & Minimal</h2>
-              <p>Don't miss avail the saving opportunity</p>
+              <p>Dont miss avail the saving opportunity</p>
               <button>Shop Now </button>
           </div>
         </div>
