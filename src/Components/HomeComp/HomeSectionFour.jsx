@@ -24,7 +24,7 @@ const HomeSectionFour=()=>{
             {recentPost.map((data, index)=>(
                 <div key={index} className="articlePost2">
                     <div className="arP2">
-                        <Image src={data.image} className="articlePostImage"/>
+                        <Image src={data.image} className="articlePostImage" alt=""/>
                     </div>
 
                     <div className="articlePost30">

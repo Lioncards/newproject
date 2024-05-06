@@ -105,7 +105,7 @@ const HomeSectionTwo=()=>{
                                     data-aos-offset="0">
                                     {gamingChairData.map((i,index)=>(
                                     <div key={index} className="furnCardDiv">
-                                        <Image src={i.image} className="furnCardDivImage"/>
+                                        <Image src={i.image} className="furnCardDivImage"  alt=''/>
                 
                                         <div className="furnCardDiv1">
                                             <p>{i.chairtype}</p>
@@ -139,7 +139,7 @@ const HomeSectionTwo=()=>{
                                     data-aos-offset="0">
                                     {diningSetData.map((i,index)=>(
                                     <div key={index} className="furnCardDiv">
-                                        <Image src={i.image} className="furnCardDivImage"/>
+                                        <Image src={i.image} className="furnCardDivImage" alt=''/>
                 
                                         <div className="furnCardDiv1">
                                             <p>{i.chairtype}</p>
@@ -173,7 +173,7 @@ const HomeSectionTwo=()=>{
                                     data-aos-offset="0">
                                     {officeTableData.map((i,index)=>(
                                     <div key={index} className="furnCardDiv">
-                                        <Image src={i.image} className="furnCardDivImage"/>
+                                        <Image src={i.image} className="furnCardDivImage" alt=''/>
                 
                                         <div className="furnCardDiv1">
                                             <p>{i.chairtype}</p>
@@ -207,7 +207,7 @@ const HomeSectionTwo=()=>{
                                     data-aos-offset="0">
                                     {officeDeskData.map((i,index)=>(
                                     <div key={index} className="furnCardDiv">
-                                        <Image src={i.image} className="furnCardDivImage"/>
+                                        <Image src={i.image} className="furnCardDivImage" alt=''/>
                 
                                         <div className="furnCardDiv1">
                                             <p>{i.chairtype}</p>
@@ -237,7 +237,7 @@ const HomeSectionTwo=()=>{
                 <div className="megamega">
                     <div className="megamega10">
                         <div>
-                            <Image src={banner1} className="mega10img"/>
+                            <Image src={banner1} className="mega10img" alt=''/>
                         </div>
 
                         <div className="mega10">
@@ -251,7 +251,7 @@ const HomeSectionTwo=()=>{
 
                     <div className="megamega20">
                         <div>
-                            <Image src={banner2} className="mega10img"/>
+                            <Image src={banner2} className="mega10img" alt=''/>
                         </div>
 
                         <div className="mega20">

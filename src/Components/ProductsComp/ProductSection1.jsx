@@ -13,7 +13,7 @@ const ProductSection1=()=>{
         <div>
             <div className="pSecDiv1">
                 <p></p>
-                <Image src={hills} className="pSecDivImg1"/>
+                <Image src={hills} className="pSecDivImg1" alt=''/>
                 <ul>
                     <li className="pSecDivli1">Shop Layout</li>
                     <li className="pSecDivli2">Home<MdKeyboardDoubleArrowRight />Page<MdKeyboardDoubleArrowRight />Grid</li>

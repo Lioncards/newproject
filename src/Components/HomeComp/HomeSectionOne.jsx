@@ -206,7 +206,7 @@ const HomeSectionOne = () => {
         </div>
 
         <div className='bdThree'>
-          <Image src={image6} className='newImage'/>
+          <Image src={image6} className='newImage' alt=""/>
           <div className='bdDivText'>
               <h4>UP TO 20% OFF</h4>
               <h2>Modern & Minimal</h2>

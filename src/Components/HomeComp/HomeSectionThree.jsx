@@ -26,7 +26,7 @@ import { FaStar } from "react-icons/fa";
                 <div className="brPr1">
                     {brandProducts10.map((bp, index)=>(
                         <div key={index} className="brPr11">
-                            <Image src={bp.image}/>
+                            <Image src={bp.image} alt=''/>
 
                             <div>
                                 {bp.ratings===1 &&(<p className="brPrIcons"><FaStar /></p>)}
@@ -48,7 +48,7 @@ import { FaStar } from "react-icons/fa";
                 </div>
 
                 <div className="brPr2">
-                    <Image src={images1}/>
+                    <Image src={images1} alt=''/>
                     
                     <div className="brPr21">
                         <p>UP TO <span>20% OFF</span></p>
@@ -60,7 +60,7 @@ import { FaStar } from "react-icons/fa";
                 <div className="brPr1">
                     {brandProducts20.map((bp, index)=>(
                         <div key={index} className="brPr11">
-                            <Image src={bp.image}/>
+                            <Image src={bp.image} alt=''/>
 
                             <div>
                                 {bp.ratings===1 &&(<p className="brPrIcons"><FaStar /></p>)}
@@ -85,7 +85,7 @@ import { FaStar } from "react-icons/fa";
 
             <div className="brandProductsDiv3">
 
-                <Image src={images2} className="brPrImage3"/>
+                <Image src={images2} className="brPrImage3" alt=''/>
 
                 <div className="brPr30">
                     <h2>Subscribe Our Newsletter to <br/> 
